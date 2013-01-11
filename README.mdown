@@ -1,6 +1,6 @@
 # CakePHP Browser Detection Component : browser and OS version front-end detection 
 
-# Browser Version And OS Version Detection Plugin
+ Browser Version And OS Version Detection Plugin
 
 ## Installation
 
