@@ -1,17 +1,16 @@
-# CakePHP Browser Helper Plugin
+# CakePHP Browser Detection Component : browser and OS version front-end detection 
 
-Browser Version And OS Version Detection Plugin
+# Browser Version And OS Version Detection Plugin
 
 ## Installation
 
-* Clone/Copy the files in this directory into `app/plugins/browser_version`
-* Include the Browser Helper in your controller:
-   * `var $helpers = array('Browser.Browser');`
+* Clone/Copy the files in this directory into `app/Controller/Component/`
+* Include the Browser Detection component in your controller:
+   * `public $components = array('BrowserDetection');`
 
 ## Documentation
 
 This Plugin offers a number of wrapper functions for these two great external libraries:
-
 
 	 Chris Schuld's Browser Class 
 	 (http://chrisschuld.com/) 
